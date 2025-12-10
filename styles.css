@@ -148,7 +148,12 @@ nav a::before {
     font-size: 0.8rem;
     opacity: 0.8;
   }
-  
+    .imagesholder img {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    width: 50%;
+  }
   /* -------- RESPONSIVE -------- */
   
   @media (max-width: 768px) {
@@ -165,8 +170,8 @@ nav a::before {
         flex-direction: column;
         padding-left: 15%;
     }
+    .imagesholder img {
+        width: 90%;
+    }
   }
 
-  .demons {
-    
-  }
