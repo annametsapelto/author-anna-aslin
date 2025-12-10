@@ -58,6 +58,7 @@
   
   main {
     background-color: #e8e3d8; /* light parchment */
+    background-image: url(./images/backgroundornament3.png);
     padding: 4rem 2rem;
   }
   
@@ -65,13 +66,13 @@
     max-width: 1000px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 400px 1fr;
     gap: 3rem;
   }
   
   .portrait img {
     width: 100%;
-    border: 2px solid #d4b26a;
+    border: 2px solid #142929;
   }
   
   /* -------- TEXT -------- */
