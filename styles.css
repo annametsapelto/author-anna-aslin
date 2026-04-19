@@ -178,13 +178,17 @@ nav a::before {
     background-image: url("./images/celticornament.png");
   }
 
-  .booklist a {
+  ol li {
+    font-size: large;
+  }
+  .booklist a, ol a {
     text-decoration: none;
     font-size: large;
     color: #2f5a5a;
   }
-  .booklist a:hover {
+  .booklist a:hover, ol a:hover {
     color: #185050;
     text-decoration: underline;
   }
+
 
