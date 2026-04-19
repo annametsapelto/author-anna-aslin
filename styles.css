@@ -181,10 +181,10 @@ nav a::before {
   .booklist a {
     text-decoration: none;
     font-size: large;
-    color: black;
+    color: #2f5a5a;
   }
   .booklist a:hover {
-    color: #2f5a5a;
+    color: #185050;
     text-decoration: underline;
   }
 
