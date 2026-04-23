@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 220">
+
+<style>
+.book { fill:#111; }
+.pages {
+  stroke:#fff;
+  stroke-width:1.2;
+  stroke-linecap:round;
+}
+text {
+  font-family: Georgia, serif;
+  font-size:28px;
+  letter-spacing:0.05em;
+  fill:#111;
+}
+</style>
+
+<rect fill="#fff" y="31.43" width="357.14" height="157.14"/>
+
+<!-- Bottom book -->
+<rect class="book" x="39.29" y="112.63" width="100" height="18.57" rx="2.14"/>
+<line class="pages" x1="139.29" y1="119" x2="55" y2="119"/>
+<line class="pages" x1="139.29" y1="125" x2="55" y2="125"/>
+
+<!-- Middle book -->
+<rect class="book" x="53.57" y="88.57" width="85.71" height="17.14" rx="2.14"/>
+<line class="pages" x1="139.28" y1="94" x2="68" y2="94"/>
+<line class="pages" x1="139.28" y1="100" x2="68" y2="100"/>
+
+<!-- Top book -->
+<rect class="book" x="71.43" y="65.71" width="67.86" height="15.71" rx="2.14"/>
+<line class="pages" x1="139.29" y1="71" x2="84" y2="71"/>
+<line class="pages" x1="139.29" y1="76" x2="84" y2="76"/>
+
+<text x="145" y="88">LITERARY</text>
+<text x="145" y="131">CAIRN</text>
+
+</svg>
