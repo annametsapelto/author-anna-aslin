@@ -254,3 +254,12 @@ nav a::before {
   transform: translateY(-2px); /* hyvin hienovarainen */
 }
 
+.blog-posts {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.blog-post {
+  margin-bottom: 4rem;
+  max-width: 700px;
+}
