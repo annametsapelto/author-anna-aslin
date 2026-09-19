@@ -136,6 +136,11 @@ nav a::before {
   z-index: -1;
   border-radius: 8px;
 }
+.excerpt {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
 .newsletter {
   margin-bottom: 2rem;
 }
